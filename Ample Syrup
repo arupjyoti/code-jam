@@ -22,7 +22,7 @@ int main() {
 	    }
 	    // vt: To store exposed area of each pancakes beginning from the first pancake
 	    //      (Here, a particular part of upper surface is taken into account which is not blocked by previous upper pancake )
-	    // vm: To store the surface area where the upper surface of each pancake is fully exposed.  
+	    // vm: To store the exposed area where the upper surface of each pancake is fully exposed.  
 	    for(auto j = mm.begin();j!=mm.end();++j)
 	    {
 	        rs=((*j).first*(*j).first) + (2 * (*j).first * (*j).second);
@@ -47,4 +47,4 @@ int main() {
 	}
 	return 0;
 }
-/* complexity : O(n^2) */
+/* Complexity : O(n^2) */
