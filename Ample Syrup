@@ -47,4 +47,4 @@ int main() {
 	}
 	return 0;
 }
-/* Complexity : O(n^2) */
+/* Complexity : O(n*t) */
